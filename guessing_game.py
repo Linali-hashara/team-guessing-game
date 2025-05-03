@@ -6,7 +6,7 @@ guess = int(input())
 
 if guess < number:
         print("Too low!")
-    elif guess > number:
+    else if guess > number:
         print("Too high!")
 
 if guess == number:
